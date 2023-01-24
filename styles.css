@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    background-color: #000;
+}
+li, a {
+    font-family: "Gill Sans", sans-serif;
+    font-weight: 500px;
+    font-size: 24px;
+    color: #fff;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+.nav-link{
+    list-style: none;
+}
+.nav-link li{
+    display: inline-block;
+    padding: 0px 30px;
+}
+.nav-link li a{
+    transition: all 0.3s ease 0s;
+}
+.nav-link li a:hover{
+    color: #0088a9;
+}
+.teleg{
+    padding-left: 40px;
+}
+.big-info{
+    text-align: center;
+}
+h1{
+    color: #fff;
+    font-size: 40px;
+    margin-top: 150px;
+}
+.front{
+    color: #fc766aff;
+    font-size: 55px;
+    margin-top: 20px;
+}
+.from{
+    color: #ffff;
+    font-size: 30px;
+    margin-top: 20px;
+}
+h1, h2, h3, h4, h5, h6, p{
+    color: #fff;
+}
+
+.head-info{
+    padding-bottom: 100px;
+}
+.photo-about {
+    border-radius: 30px;
+    border: 2px solid salmon;
+  }
+.div-about{
+    /* border:5px solid green; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.content-1{
+    text-align: center;
+    /* border:10px solid purple; */
+    width: 420px;
+}
+.content-2{
+    text-align: center;
+    /* border:10px solid yellow; */
+    width: 420px;
+}
+#skills{
+    text-align: center;
+}
+.content-skills{
+    display:flex ;
+    justify-content: space-around;
+    align-items: center;
+}
+.pre-name{
+    font-size: 72px;
+    text-align: center;
+    padding: 100px;
+}
+.photo-github{
+    width: 120px;
+}
+.photo-css{
+    width: 120px;
+}
+.photo-html{
+    width: 160px;
+}
+#html{
+    font-size: 30px;
+    width: 154px;
+}
+#css{
+    font-size: 30px;
+    width: 154px;
+}
+#github{
+    font-size: 30px;
+    width: 154px;
+}
+.container {
+    position: relative;
+    width: 50%;
+}
+  
